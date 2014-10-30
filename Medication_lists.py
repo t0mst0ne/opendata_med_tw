@@ -4,7 +4,7 @@
 import xml.etree.cElementTree as ET
 import pandas as pd 
 
-tree = ET.ElementTree(file='36_1.xml')
+tree = ET.ElementTree(file='data/36_1.xml')
 root = tree.getroot()
 root.tag
 pd.set_option('display.max_columns', None)
